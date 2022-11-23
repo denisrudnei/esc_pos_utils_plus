@@ -69,6 +69,7 @@ class Generator {
     // replace some non-ascii characters
     text = text
         .replaceAll("’", "'")
+        .replaceAll("‘", "'")
         .replaceAll("´", "'")
         .replaceAll("»", '"')
         .replaceAll(" ", ' ')
